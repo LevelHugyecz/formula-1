@@ -1,1 +1,39 @@
 
+<!DOCTYPE html><html lang='hu'><head><meta charset='UTF-8'>
+    <title>F1 Pályák</title><link rel='stylesheet' href='style.css'></head>
+    <body>
+    <header>F1 Pályák</header>
+    <nav>
+    <a href='index.html'>Főoldal</a>
+    <a href='csapatok.html'>Csapatok</a>
+    <a href='versenyzok.html'>Versenyzők</a>
+    <a href='palyak.html'>Pályák</a>
+    </nav>
+    <div class='container'>
+    <h2>Ikonikus helyszínek</h2>
+    <p>A Formula–1 pályái a világ legkülönlegesebb versenyhelyszínei. Monza a végsebességeiről híres, Monaco utcai pályája a precizitás csúcsa, Silverstone pedig a sportág bölcsője.</p>
+    <img src='https://upload.wikimedia.org/wikipedia/commons/1/17/Monza_track_map.svg'>
+    <img src='https://upload.wikimedia.org/wikipedia/commons/2/2e/Monaco_circuit.svg'>
+    
+    <h2>Teszt</h2>
+    <form>
+    <p>1. Melyik pálya található Olaszországban?</p>
+    <input type='radio' name='q1' value='true'> Monza<br>
+    <input type='radio' name='q1' value='false'> Monaco<br>
+    
+    <p>2. Melyik pálya városi?</p>
+    <input type='radio' name='q2' value='true'> Monaco<br>
+    <input type='radio' name='q2' value='false'> Silverstone<br>
+    
+    <p>3. Hol található Silverstone?</p>
+    <input type='radio' name='q3' value='true'> Egyesült Királyság<br>
+    <input type='radio' name='q3' value='false'> Franciaország<br>
+    
+    <button type='button' onclick='check()'>Értékelés</button>
+    </form>
+    <h3 id='res'></h3>
+    </div>
+    <script>
+    function check(){let s=0;document.querySelectorAll('input[type=radio]:checked').forEach(x=>{if(x.value==='true')s++});document.getElementById('res').innerText='Eredmény: '+s+'/3';}
+    </script>
+    </body></html>

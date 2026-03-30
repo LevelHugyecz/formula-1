@@ -1,1 +1,75 @@
-
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:#0b0b0d;
+    color:#e6e6e6;
+    margin:0;
+    overflow-x:hidden;
+  }
+  header{
+    background:linear-gradient(90deg,#ff0000,#660000);
+    padding:25px;
+    text-align:center;
+    font-size:34px;
+    font-weight:bold;
+    letter-spacing:1px;
+    animation:fadein 1.5s;
+  }
+  @keyframes fadein{from{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:translateY(0)}}
+  nav{
+    background:#111;
+    padding:15px;
+    text-align:center;
+    box-shadow:0 0 15px #000;
+    position:sticky;
+    top:0;
+    z-index:10;
+  }
+  nav a{
+    color:#fff;
+    margin:0 20px;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+    transition:0.3s;
+  }
+  nav a:hover{
+    color:#ff0000;
+    text-shadow:0 0 8px #ff0000;
+  }
+  .container{
+    width:85%;
+    margin:auto;
+    background:#141417;
+    padding:25px;
+    margin-top:25px;
+    border-radius:10px;
+    box-shadow:0 0 20px #000;
+    animation:fadein 1.3s;
+    line-height:1.6;
+  }
+  h2{color:#ff3333;font-size:28px;margin-top:0}
+  img{
+    width:360px;
+    margin:10px;
+    border-radius:8px;
+    box-shadow:0 0 12px #000;
+    transition:0.4s;
+  }
+  img:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 25px #ff0000;
+  }
+  button{
+    padding:12px 20px;
+    background:#ff0000;
+    border:none;
+    color:white;
+    font-size:18px;
+    border-radius:6px;
+    margin-top:15px;
+    cursor:pointer;
+  }
+  button:hover{
+    background:#aa0000;
+  }
+  
