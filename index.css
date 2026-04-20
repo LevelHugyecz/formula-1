@@ -6,7 +6,7 @@ body{
     overflow-x:hidden;
   }
   header{
-    background:linear-gradient(90deg,#ff0000,#660000);
+    background:linear-gradient(90deg,#E10600,#660000);
     padding:25px;
     text-align:center;
     font-size:34px;
@@ -33,8 +33,8 @@ body{
     transition:0.3s;
   }
   nav a:hover{
-    color:#ff0000;
-    text-shadow:0 0 8px #ff0000;
+    color:#E10600;
+    text-shadow:0 0 8px #E10600;
   }
   .container{
     width:85%;
@@ -57,11 +57,11 @@ body{
   }
   img:hover{
     transform:scale(1.05);
-    box-shadow:0 0 25px #ff0000;
+    box-shadow:0 0 25px #E10600;
   }
   button{
     padding:12px 20px;
-    background:#ff0000;
+    background:#E10600;
     border:none;
     color:white;
     font-size:18px;
@@ -70,8 +70,10 @@ body{
     cursor:pointer;
   }
   button:hover{
-    background:#aa0000;
+    background:#E10600;
   }
   p{
-    border-left:solid 4px #ff0000;
+    border-left:solid 4px #E10600;
   }
+  h3{color:#ff3333;font-size:16px;margin-top:0}
+  a{color:#E10600}
