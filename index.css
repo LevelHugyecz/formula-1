@@ -1,9 +1,13 @@
 body{
     font-family:'Segoe UI',sans-serif;
-    background:linear-gradient(90deg,#ff0000,#b80101);
+
     color:#e6e6e6;
     margin:0;
     overflow-x:hidden;
+    background-image: url(https://wallpapercave.com/wp/wp8757601.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     
     
   }
@@ -41,13 +45,18 @@ body{
   .container{
     width:85%;
     margin:auto;
-    background:#141417;
     padding:25px;
     margin-top:25px;
     border-radius:10px;
     box-shadow:0 0 20px #000;
     animation:fadein 1.3s;
     line-height:1.6;
+    background-color: #000 ;
+    background-color: rgba(0,0,0,.5); 
+
+    
+    
+   
     
   }
   h2{color:#ff3333;font-size:28px;margin-top:0 ;
@@ -116,5 +125,6 @@ body{
   #monza{
     margin-left: 155px;
   }
+  
   
   
