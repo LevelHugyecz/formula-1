@@ -47,7 +47,11 @@ body{
     animation:fadein 1.3s;
     line-height:1.6;
   }
-  h2{color:#ff3333;font-size:28px;margin-top:0}
+  h2{color:#ff3333;font-size:28px;margin-top:0 ;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing:auto;
+    font-weight:400 ;
+    font-style: normal;}
   img{
     width:360px;
     margin:10px;
@@ -76,10 +80,20 @@ body{
     border-left:solid 4px #E10600;
     padding-left: 12px;
   }
-  h3{color:#ff3333;font-size:16px;margin-top:0}
+  h3{color:#ff3333;font-size:16px;margin-top:0 ;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;}
   a{color:#E10600}
   dl{
     border-left:solid 4px #E10600;
     padding-left: 12px;
   }
-  h1{color: #E10600;}
+  h1{color: #E10600;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;}
+  
+
