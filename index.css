@@ -100,14 +100,7 @@ body{
     font-weight: 400;
     font-style: normal;}
   a{color:#E10600}
-  dl{
-    border-left:solid 4px #E10600;
-    padding-left: 12px;
-    background-color: #a89291;
-    width: 740px;
-    border-radius: 15px;
-    
-  }
+
   h1{color: #E10600;
     font-family: "Orbitron", sans-serif;
     font-optical-sizing: auto;
@@ -129,6 +122,41 @@ body{
   float: right;
   width: 755px;
   height: 488px;
+}
+.redb{
+  background: linear-gradient(90deg,rgba(0, 19, 68, 1) 52%, rgba(255, 211, 0, 1) 72%); ;
+  border-left:solid 4px #E10600;
+  padding-left: 12px;
+  width: 740px;
+  border-radius: 15px;
+}
+.merc{
+  background: linear-gradient(90deg,rgba(86, 95, 100, 1) 56%, rgba(0, 161, 155, 1) 72%);
+  border-left:solid 4px #E10600;
+  padding-left: 12px;
+  width: 740px;
+  border-radius: 15px;
+}
+.ferr{
+  background: linear-gradient(90deg,rgba(239, 26, 45, 1) 56%, rgba(255, 242, 0, 1) 72%);
+  border-left:solid 4px #E10600;
+  padding-left: 12px;
+  width: 740px;
+  border-radius: 15px;
+}
+.mcla{
+  background: linear-gradient(90deg,rgba(0, 0, 0, 1) 14%, rgba(255, 128, 0, 1) 43%);
+  border-left:solid 4px #E10600;
+  padding-left: 12px;
+  width: 740px;
+  border-radius: 15px;
+}
+.aston{
+  background: linear-gradient(90deg,rgba(3, 122, 104, 1) 72%, rgba(255, 255, 255, 1) 100%);
+  border-left:solid 4px #E10600;
+  padding-left: 12px;
+  width: 740px;
+  border-radius: 15px;
 }
   
   
