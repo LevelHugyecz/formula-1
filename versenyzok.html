@@ -102,10 +102,10 @@
             <label>
               <input type='checkbox' />
               <img src="Juan.jpg" alt="Juan Manuel Fangio" title="Juan Manuel Fangio" width="200">
-            </label>
+            </label></div>
             <h2>Teszt</h2>
-    <form>
-    <p>1. Melyik csapatnál keezdett Lewis Hamilton?</p>
+      <form>
+    <p>1. Melyik csapatnál kezdett Lewis Hamilton?</p>
     <input type='radio' name='q1' value='true'> Mclaren<br>
     <input type='radio' name='q1' value='false'> Ferrari<br>
     
@@ -114,19 +114,24 @@
     <input type='radio' name='q2' value='false'> 2001<br>
     
     <p>3. Mikor szerezte meg első világbajnoki címét Max Verstappen?</p>
-    <input type='radio' name='q3' value='false'> 2020<br>
+    <input type='radio' name='q3' value='false'> 2022<br>
     <input type='radio' name='q3' value='true'> 2021<br>
+
+     <p>4. Fangio hány világbajnoki címet szerzett?</p>
+    <input type='radio' name='q4' value='false'> 4<br>
+    <input type='radio' name='q4' value='true'> 5<br>
+
+     <p>5. Mikor vonult vissza Michael Schumacher?</p>
+     <input type='radio' name='q5' value='true'> 2012<br>
+    <input type='radio' name='q5' value='false'> Mai napig versenyez<br>
     
     
     <button type='button' onclick='check()'>Értékelés</button>
-    </form>
-    <h3 id='res'></h3>
-    </div>
-    <script>
-    function check(){let s=0;document.querySelectorAll('input[type=radio]:checked')
-      .forEach(x=>{if(x.value==='true')s++});document.getElementById('res')
-      .innerText='Eredmény: '+s+'/3';}
-    </script>
+</form>
+<h3 id='res'></h3>
+
+<!-- JS fájl betöltése -->
+<script src="index.js"></script>
           </div>
        
     
