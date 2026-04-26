@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>csapatok</title>
+    <title>pályák</title>
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet"></head> 
-    <title>pályák</title>
+    
     <body>
     <header>F1 Pályák</header>
     <nav>
@@ -41,7 +41,7 @@
 <div class='click-zoom'>
     <label>
       <input type='checkbox' />
-      <img src="https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000001/fom-website/campaign/support-promoter/australia/FAQ%2025%20SD_2024_Australia_Helicopter_200%20169.webp" alt="Albert Park Circuit" alt="Leírás" width="200">
+      <img src="https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000001/fom-website/campaign/support-promoter/australia/FAQ%2025%20SD_2024_Australia_Helicopter_200%20169.webp" alt="Albert Park Circuit" width="200">
     </label>
   </div>
 
@@ -73,7 +73,6 @@
       <img src="https://sm.cdnadcom.net/sm/img_news/s/w1024/2016/07/19/1023/monza-circuit-plan.jpg" alt="Monza circuit" width="200">
     </label>
   </div>
-    <img  >
     <figcaption id="monza">Monza Circuit "a sebesség temploma"pályaképköre</figcaption>
   </figure>
     
@@ -93,7 +92,6 @@
     
     <button type='button' onclick='check()'>Értékelés</button>
     </form>
-    <h3 id='res'></h3>
     </div>
     <script>
     function check(){let s=0;document.querySelectorAll('input[type=radio]:checked').forEach(x=>{if(x.value==='true')s++});document.getElementById('res').innerText='Eredmény: '+s+'/3';}
