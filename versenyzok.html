@@ -103,6 +103,30 @@
               <input type='checkbox' />
               <img  img src="Juan.jpg" alt="Juan Manuel Fangio" title="Juan Manuel Fangio" width="200">
             </label>
+            <h2>Teszt</h2>
+    <form>
+    <p>1. Melyik csapatnál keezdett Lewis Hamilton?</p>
+    <input type='radio' name='q1' value='true'> Mclaren<br>
+    <input type='radio' name='q1' value='false'> Ferrari<br>
+    
+    <p>2. Mikor hunyt el Ayrton Senna?</p>
+    <input type='radio' name='q2' value='true'> 1994<br>
+    <input type='radio' name='q2' value='false'> 2001<br>
+    
+    <p>3. Mikor szerezte meg első világbajnoki címét Max Verstappen?</p>
+    <input type='radio' name='q3' value='false'> 2020<br>
+    <input type='radio' name='q3' value='true'> 2021<br>
+    
+    
+    <button type='button' onclick='check()'>Értékelés</button>
+    </form>
+    <h3 id='res'></h3>
+    </div>
+    <script>
+    function check(){let s=0;document.querySelectorAll('input[type=radio]:checked')
+      .forEach(x=>{if(x.value==='true')s++});document.getElementById('res')
+      .innerText='Eredmény: '+s+'/3';}
+    </script>
           </div>
        
     </div>

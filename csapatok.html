@@ -114,7 +114,30 @@
     </dl>
     
     
-</div>
+
+<h2>Teszt</h2>
+    <form>
+    <p>1. Mikor alapították a Red Bull csapatot?</p>
+    <input type='radio' name='q1' value='true'> 2004<br>
+    <input type='radio' name='q1' value='false'> 2003<br>
+    
+    <p>2. Hol van Mclaren székhelye?</p>
+    <input type='radio' name='q2' value='true'> Britannia<br>
+    <input type='radio' name='q2' value='false'> USA<br>
+    
+    <p>3. Melyik a legrégebbi csapat?</p>
+    <input type='radio' name='q3' value='false'> Mercedes<br>
+    <input type='radio' name='q3' value='true'> Ferrari<br>
+    
+    
+    <button type='button' onclick='check()'>Értékelés</button>
+    </form>
+    <h3 id='res'></h3>
+    </div>
+    <script>
+    function check(){let s=0;document.querySelectorAll('input[type=radio]:checked').forEach(x=>{if(x.value==='true')s++});document.getElementById('res').innerText='Eredmény: '+s+'/3';}
+    </script>
+    </div>
 
 
     </body>

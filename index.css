@@ -158,6 +158,21 @@ body{
   width: 740px;
   border-radius: 15px;
 }
+.alpine{
+  background: linear-gradient(90deg,rgba(255, 136, 189, 1) 21%, rgba(71, 159, 226, 1) 85%);
+   border-left:solid 4px #E10600;
+  padding-left: 12px;
+  width: 740px;
+  border-radius: 15px;
+}
+.will{
+  background: linear-gradient(90deg,rgba(50, 103, 212, 1) 21%, rgba(0, 0, 0, 1) 85%);
+    border-left:solid 4px #E10600;
+  padding-left: 12px;
+  width: 740px;
+  border-radius: 15px;
+}
+
   
   
   
