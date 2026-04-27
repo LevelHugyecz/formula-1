@@ -172,7 +172,27 @@ body{
   width: 740px;
   border-radius: 15px;
 }
-
+.sauber{
+  background: linear-gradient(90deg,rgba(1, 192, 14, 1) 0%, rgba(82, 226, 82, 1) 32%, rgba(11, 14, 15, 1) 80%);
+  border-left:solid 4px #E10600;
+  padding-left: 12px;
+  width: 740px;
+  border-radius: 15px;
+}
+.haas{
+  background: linear-gradient(90deg,rgba(230, 0, 43, 1) 0%, rgba(0, 0, 0, 1) 32%, rgba(255, 255, 255, 1) 80%);
+  border-left:solid 4px #E10600;
+  padding-left: 12px;
+  width: 740px;
+  border-radius: 15px;
+}
+.rb{
+  background: linear-gradient(90deg,rgba(108, 152, 255, 1) 50%, rgba(255, 255, 255, 1) 80%);
+  border-left:solid 4px #E10600;
+  padding-left: 12px;
+  width: 740px;
+  border-radius: 15px;
+}
   
   
   
