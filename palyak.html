@@ -91,7 +91,7 @@
     </div>
 
     <div>
-        <h2>Monza – Autodromo Nazionale Monza</h2>
+        <h2>Monza - Autodromo Nazionale Monza</h2>
          <p>Az "olasz sebesség temploma", ahol a legnagyobb végsebességeket érik el.</p>
         <ul>
             <li><strong>Ország:</strong> Olaszország</li>
@@ -132,30 +132,34 @@
     <h2>Teszt</h2>
     <form>
     <p>1. Melyik pálya található Olaszországban?</p>
-    <input type='radio' name='q1' value='true'> Monaco<br>
-    <input type='radio' name='q1' value='false'> Monza<br>
+    <input type='radio' name='q1' value='true'> Monza<br>
+    <input type='radio' name='q1' value='false'> Monaco<br>
+    <input type='radio' name='q1' value='false'> Suzuka Circuit<br>
     
-    <p>2. Melyik pálya városi?</p>
-    <input type='radio' name='q2' value='true'> Monaco<br>
-    <input type='radio' name='q2' value='false'> Silverstone<br>
+    <p>2. Melyik pályán volt az első hivatalos futam?</p>
+    <input type='radio' name='q2' value='true'> Silverstone<br>
+    <input type='radio' name='q2' value='false'> Fair Park<br>
+    <input type='radio' name='q2' value='false'> Monza<br>
     
     <p>3. Hol található Silverstone?</p>
     <input type='radio' name='q3' value='true'> Egyesült Királyság<br>
     <input type='radio' name='q3' value='false'> Franciaország<br>
+    <input type='radio' name='q3' value='false'> Olaszország<br>
 
      <p>4. Melyik a jelenlegi használatban lévő leghoszabb pálya</p>
-    <input type='radio' name='q4' value='true'> Egyesült Királyság<br>
-    <input type='radio' name='q4' value='false'> Franciaország<br>
+    <input type='radio' name='q4' value='true'> Spa-Francorchamps<br>
+    <input type='radio' name='q4' value='false'> Monza<br>
+    <input type='radio' name='q4' value='false'> Silverstone<br>
 
      <p>5. A megadott pályák közül melyik pályának van a legkevesebb kanyara</p>
     <input type='radio' name='q5' value='true'> Monza<br>
     <input type='radio' name='q5' value='false'> Silverstone<br>
+    <input type='radio' name='q5' value='false'> Suzuka Circuit<br>
     
     <button type='button' onclick='check()'>Értékelés</button>
     </form>
     <h3 id='res'></h3>
+    <script src="index.js"></script>
     </div>
-    <script>
-    function check(){let s=0;document.querySelectorAll('input[type=radio]:checked').forEach(x=>{if(x.value==='true')s++});document.getElementById('res').innerText='Eredmény: '+s+'/3';}
-    </script>
+    
     </body></html>
