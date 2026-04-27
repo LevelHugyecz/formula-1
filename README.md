@@ -1,1 +1,0 @@
-forrásokat befejezni!!!
